@@ -13,8 +13,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightgray;
-    font-family: 'Abel', sans-serif;
+    background-color: lightgray !important;
+    font-family: 'Abel', sans-serif !important;
 }
 
 .circle{
