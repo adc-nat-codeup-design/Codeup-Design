@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+/*@font-face {*/
+/*    font-family: 'Abel', sans-serif;*/
+/*    src: url("https://fonts.googleapis.com/css2?family=Abel&display=swap")format("TrueType");*/
+/*}*/
+
 body{
     margin: 0;
     display: flex;
@@ -9,6 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: lightgray;
+    font-family: 'Abel', sans-serif;
 }
 
 .circle{
@@ -75,7 +81,15 @@ span .circle{
     display: flex;
 }
 
+.row-2 .circle{
+    height: 100px;
+    width: 100px;
+}
 
+/*.container .row{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
 
 .grid1-container{
     display: flex;
@@ -85,6 +99,22 @@ span .circle{
     width: 100%;
     padding: 0;
     margin: 0;
+}
+#footer{
+    display: flex;
+    justify-self: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#foot-row{
+    width: 100%;
+}
+
+.ipad{
+    border: 20px solid lightgrey;
+    border-radius: 4%;
 }
 
 /*.text-container {*/
