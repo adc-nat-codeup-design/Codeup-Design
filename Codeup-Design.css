@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightgray !important;
+    background-color: #e7e7e7 !important;
     font-family: 'Abel', sans-serif !important;
 }
 
@@ -26,9 +26,16 @@ body{
     background-color: #bbb;
     border-radius: 50%;
     text-align: center;
-    border: solid white thick;
+
     /*line-height: 0;*/
     /*position: relative;*/
+}
+
+.lrg-circle{
+    border: 24px solid white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
 }
 
 .top-banner{
@@ -96,12 +103,40 @@ body{
     padding: 0;
 }
 
+
+
 .grid-labels{
     width: 10em;
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding: 3em 0 3em 0;
+}
+
+.lrg-circle-1{
+    /*red*/
+    background-color: #dd553b;
+}
+
+.lrg-circle-2{
+    /*green*/
+    background-color: #7aaa6b;
+}
+
+.lrg-circle-3{
+    /*orange*/
+    background-color: #da951b;
+}
+
+.lrg-circle-4{
+    /*bleu*/
+    background-color: #0aa5a5;
+}
+.selected-work{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-bottom: 75px;
 }
 
 .row{
