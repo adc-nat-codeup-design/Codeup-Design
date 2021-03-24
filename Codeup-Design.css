@@ -31,10 +31,50 @@ body{
     /*position: relative;*/
 }
 
-span .circle{
-
+.top-banner{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 65px;
+    height: 170px;
 }
 
+.design-logo{
+    /*float: top;*/
+    position: absolute;
+    top: 45px;
+    height: 330px;
+    z-index: 10;
+}
+
+.codeup-title{
+    font-size: 70px;
+}
+
+.navbar-brand{
+    font-size: 26px !important;
+    margin-left: .5em;
+}
+
+.navbar{
+    margin-bottom: 75px;
+}
+
+.announcement{
+    text-align: center;
+    font-size: 70px;
+    /*font-weight: 200;*/
+    font-family: 'Anton', sans-serif;
+    margin: 0 .25em 0 .25em;
+}
+
+.mini-announcement{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 50px;
+}
 /*.circle::after {*/
 /*    content: "";*/
 /*    display: block;*/
