@@ -18,14 +18,14 @@ body{
     width: 100%;
     margin-top: 140px;
     margin-bottom: 65px;
-    height: 170px;
+    height: 85px;
 }
 
 .design-logo{
     /*float: top;*/
     position: absolute;
-    top: 45px;
-    height: 330px;
+    top: 90px;
+    height: 175px;
     z-index: 10;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 .navbar-brand{
-    font-size: 26px !important;
+    font-size: 14px !important;
     margin-left: .5em;
 }
 
@@ -44,7 +44,7 @@ body{
 
 .announcement{
     text-align: center;
-    font-size: 70px;
+    font-size: 55px;
     /*font-weight: 200;*/
     font-family: 'Anton', sans-serif;
     margin: 0 .25em 0 .25em;
@@ -52,9 +52,9 @@ body{
 
 .mini-announcement{
     font-family: 'Anton', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 200;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #top-grid{
@@ -63,24 +63,25 @@ body{
     justify-content: center;
     padding: 0 !important;
     width: 100%;
+    margin-top: 25px;
 }
 
 .circle{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     background-color: #bbb;
     border-radius: 50%;
     text-align: center;
 
 }
 .grid-labels .lrg-circle{
-    border: 17px solid white;
+    border: 8px solid white;
     color: white;
     font-family: 'Anton', sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -89,7 +90,7 @@ body{
 }
 
 .grid-labels{
-    margin: 1.1em 1.5em;
+    margin: .5em .5em;
 }
 
 .circle-color-1{
@@ -113,25 +114,24 @@ body{
 }
 .selected-work{
     font-family: 'Abel', sans-serif;
-    font-size: 40px;
-    margin-top: 250px;
-    margin-bottom: 75px;
+    font-size: 20px;
+    margin-top: 125px;
+    margin-bottom: 38px;
 }
 
 .ipad-pic{
-    height: 425px;
-    border: 15px solid lightgrey;
+    height: 275px;
+    border: 10px solid lightgrey;
     border-radius: 2%;
 }
 
 .featured-product{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .row-2{
     display: flex;
     flex-direction: row;
-
 }
 
 #foot-row{
@@ -139,23 +139,24 @@ body{
     justify-content: center;
     align-items: center;
     height: 80px;
-    margin: 0px 0 100px 30px;
+    margin: 0px 30px 100px 30px;
     width: 100%;
 }
 
 .row-2 .circle{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     margin: .5em;
     /*padding: 0 .5em;*/
 }
 .sm-cir-font{
     font-family: 'Anton', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bolder;
 }
-.col-6 .bottom{
-    padding: 0;
+.bottom{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 #footer{
