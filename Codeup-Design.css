@@ -119,11 +119,11 @@ body{
 .ipad-pic{
     height: 425px;
     border: 15px solid lightgrey;
-    border-radius: 4%;
+    border-radius: 2%;
 }
 
 .featured-product{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .row-2{
@@ -149,7 +149,7 @@ body{
 }
 .sm-cir-font{
     font-family: 'Anton', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 .col-6 .bottom{
